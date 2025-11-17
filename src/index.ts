@@ -1,3 +1,4 @@
-declare function print(msg: string): void;
+import { readEBI } from "./ebi";
 
-print("Hello via EmbeTS!");
+const ebi = readEBI();
+print(ebi.entrypoint);
