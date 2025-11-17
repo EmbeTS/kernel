@@ -1,1 +1,1 @@
-declare function readEmbeTSKernel(): string;
+export declare function readEmbeTSKernel(): string;
